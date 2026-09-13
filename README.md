@@ -12,20 +12,6 @@ This project analyzes Pennsylvania Medicaid enrollment and Social Determinants o
 ### SDOH Dataset
 - County Health Rankings Social Determinants of Health data
 
-## Key Fields
-
-### Medicaid
-- county_name
-- avg_ma_enrollment
-- fips
-
-### SDOH
-- County
-- % Food Insecurity
-- % Children in Poverty
-- % Unemployment
-- Median Household Income
-
 ## Questions
 
 1. Which Pennsylvania counties have the highest Medicaid enrollment?
@@ -40,6 +26,21 @@ This project analyzes Pennsylvania Medicaid enrollment and Social Determinants o
 2. Joined datasets using county FIPS codes.
 3. Performed SQL analysis on Medicaid enrollment and county-level social determinants.
 4. Generated insights related to food insecurity, poverty, unemployment, and income.
+
+## Key Findings
+
+- Philadelphia County had the highest average Medicaid enrollment among Pennsylvania counties.
+- Counties with higher Medicaid enrollment generally exhibited higher levels of food insecurity and social vulnerability.
+- Median household income varied substantially across counties and appeared inversely related to Medicaid enrollment levels.
+- Food insecurity, unemployment, and income metrics highlighted geographic differences in social determinants of health across Pennsylvania.
+
+## Tools Used
+
+- SQLite
+- SQL
+- GitHub
+- Pennsylvania Medicaid Enrollment Dataset
+- County Health Rankings SDOH Dataset
 
 ## Skills Demonstrated
 
