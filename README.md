@@ -30,8 +30,8 @@ This project analyzes Pennsylvania Medicaid enrollment and Social Determinants o
 ## Key Findings
 
 - Philadelphia County had the highest average Medicaid enrollment among Pennsylvania counties.
-- Counties with higher Medicaid enrollment generally exhibited higher levels of food insecurity and social vulnerability.
-- Median household income varied substantially across counties and appeared inversely related to Medicaid enrollment levels.
+- Southeast counties indicated 
+- Median household income showed more in the southeast counties and appeared related to Medicaid enrollment levels.
 - Food insecurity, unemployment, and income metrics highlighted geographic differences in social determinants of health across Pennsylvania.
 
 ## Tools Used
