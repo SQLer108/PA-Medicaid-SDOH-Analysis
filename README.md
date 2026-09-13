@@ -21,7 +21,7 @@ This project analyzes Pennsylvania Medicaid enrollment and Social Determinants o
 
 ### SDOH
 - County
-- Food Insecurity %
+- % Food Insecurity
 - % Children in Poverty
 - % Unemployment
 - Median Household Income
