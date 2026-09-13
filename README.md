@@ -59,8 +59,8 @@ This project analyzes Pennsylvania Medicaid enrollment and Social Determinants o
 
 ## SQL Analyses
 
-1. Highest Medicaid Enrollment Counties
-2. Medicaid Enrollment and Median Household Income
-3. High Medicaid Enrollment and Food Insecurity
-4. Highest Unemployment Counties
-5. Combined Social Vulnerability Analysis
+1. Identified Pennsylvania counties with the highest Medicaid enrollment.
+2. Examined relationships between Medicaid enrollment and median household income.
+3. Analyzed food insecurity among counties with high Medicaid enrollment.
+4. Evaluated county-level unemployment rates.
+5. Assessed combined social vulnerability using Medicaid enrollment, food insecurity, and unemployment metrics.
