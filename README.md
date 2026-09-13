@@ -49,8 +49,18 @@ This project analyzes Pennsylvania Medicaid enrollment and Social Determinants o
 - SQLite
 - INNER JOINs
 - Data Cleaning
+- Data Aggregation
 - Population Health Analytics
 - Medicaid Data Analysis
-- Social Determinants of Health Analysis
+- Social Determinants of Health (SDOH) Analysis
 - Public Health Analytics
+- Geographic Data Analysis
 - GitHub Documentation
+
+## SQL Analyses
+
+1. Highest Medicaid Enrollment Counties
+2. Medicaid Enrollment and Median Household Income
+3. High Medicaid Enrollment and Food Insecurity
+4. Highest Unemployment Counties
+5. Combined Social Vulnerability Analysis
