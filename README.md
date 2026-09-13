@@ -26,7 +26,7 @@ This project analyzes Pennsylvania Medicaid enrollment and Social Determinants o
 - % Unemployment
 - Median Household Income
 
-## Business Questions
+## Questions
 
 1. Which Pennsylvania counties have the highest Medicaid enrollment?
 2. Do counties with higher food insecurity also have higher Medicaid enrollment?
