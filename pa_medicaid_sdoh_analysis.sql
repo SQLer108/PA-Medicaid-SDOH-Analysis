@@ -3,8 +3,8 @@ Highest Medicaid Enrollment Counties
 */
 
 SELECT
-county_name,
-avg_ma_enrollment
+  county_name,
+  avg_ma_enrollment
 FROM pa_medicaid_avg
 ORDER BY avg_ma_enrollment DESC
 LIMIT 10;
@@ -14,9 +14,9 @@ Medicaid Enrollment and Median Household Income
 */
 
 SELECT
-m.county_name,
-m.avg_ma_enrollment,
-s.[# Median Household Income]
+  m.county_name,
+  m.avg_ma_enrollment,
+  s.[# Median Household Income]
 FROM pa_medicaid_avg m
 JOIN pa_sdoh s
 ON m.fips = s.FIPS 
@@ -28,9 +28,9 @@ High Medicaid Enrollment and Food Insecurity
 */
 
 SELECT
-m.county_name,
-m.avg_ma_enrollment,
-s.[# Food Insecurity]
+  m.county_name,
+  m.avg_ma_enrollment,
+  s.[# Food Insecurity]
 FROM pa_medicaid_avg m
 JOIN pa_sdoh s
 ON m.fips = s.FIPS
@@ -41,9 +41,10 @@ LIMIT 10;
 /* Query 4
 Highest Unemployment Counties
 */
+
 SELECT
-County,
-[% Unemployment]
+  County,
+  [% Unemployment]
 FROM pa_sdoh
 ORDER BY [% Unemployment] DESC
 LIMIT 10;
@@ -51,16 +52,17 @@ LIMIT 10;
 /* Query 5
 Combined Social Vulnerability
 */
+
 SELECT
-m.county_name,
-m.avg_ma_enrollment,
-s.[% Food Insecurity],
-s.[% Unemployment]
+  m.county_name,
+  m.avg_ma_enrollment,
+  s.[% Food Insecurity],
+  s.[% Unemployment]
 FROM pa_medicaid_avg m
 JOIN pa_sdoh s
 ON m.fips = s.FIPS
 ORDER BY
-m.avg_ma_enrollment DESC,
-s.[% Food Insecurity] DESC,
-s.[% Unemployment] DESC
+  m.avg_ma_enrollment DESC,
+  s.[% Food Insecurity] DESC,
+  s.[% Unemployment] DESC
 LIMIT 15;
