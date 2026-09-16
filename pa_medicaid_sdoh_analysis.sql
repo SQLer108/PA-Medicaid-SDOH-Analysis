@@ -65,4 +65,4 @@ ORDER BY
   m.avg_ma_enrollment DESC,
   s.[% Food Insecurity] DESC,
   s.[% Unemployment] DESC
-LIMIT 15;
+LIMIT 10;
