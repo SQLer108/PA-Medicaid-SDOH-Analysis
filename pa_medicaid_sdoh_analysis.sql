@@ -54,15 +54,15 @@ Combined Social Vulnerability
 */
 
 SELECT
-  m.county_name,
-  m.avg_ma_enrollment,
+  m.[PA County Names],
+  m.[# Avg MA Enrollment],
   s.[% Food Insecurity],
   s.[% Unemployment]
 FROM pa_medicaid_avg m
 JOIN pa_sdoh s
-ON m.fips = s.FIPS
+ON m.FIPS = s.FIPS
 ORDER BY
-  m.avg_ma_enrollment DESC,
-  s.[% Food Insecurity] DESC,
+  m.[# Avg MA Enrollment] ,
+  s.[% Food Insecurity],
   s.[% Unemployment] DESC
 LIMIT 10;
