@@ -14,12 +14,12 @@ Medicaid Enrollment and Median Household Income
 */
 
 SELECT
-  m.county_name,
-  m.avg_ma_enrollment,
+  m.[PA County Names],
+  m.[# Avg MA Enrollment],
   s.[# Median Household Income]
 FROM pa_medicaid_avg m
 JOIN pa_sdoh s
-ON m.fips = s.FIPS 
+ON m.FIPS = s.FIPS 
 ORDER BY [# Median Household Income] DESC
 LIMIT 10;
 
