@@ -3,10 +3,10 @@ Highest Medicaid Enrollment Counties
 */
 
 SELECT
-  county_name,
-  avg_ma_enrollment
+  [PA County Names],
+  [# Avg MA Enrollment]
 FROM pa_medicaid_avg
-ORDER BY avg_ma_enrollment DESC
+ORDER BY [# Avg MA Enrollment] DESC
 LIMIT 10;
 
 /* Query 2
