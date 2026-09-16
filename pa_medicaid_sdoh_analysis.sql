@@ -28,12 +28,12 @@ High Medicaid Enrollment and Food Insecurity
 */
 
 SELECT
-  m.county_name,
-  m.avg_ma_enrollment,
+  m.[PA County Names],
+  m.[# Avg MA Enrollment],
   s.[# Food Insecurity]
 FROM pa_medicaid_avg m
 JOIN pa_sdoh s
-ON m.fips = s.FIPS
+ON m.FIPS = s.FIPS
 ORDER BY s.[# Food Insecurity] DESC
 LIMIT 10;
 
